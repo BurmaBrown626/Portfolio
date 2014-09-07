@@ -1,3 +1,218 @@
-body{
-    background-color: blue;
+
+
+nav a{
+    color: black;
+    text-align:center;
+    text-combine-horizontal: all;
+       
 }
+
+
+body {
+   background-image: url('http://iliketowastemytime.com/sites/default/files/terence-chang-long-exposure-airport-photos10.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h12{
+    color: white;
+}
+
+body {
+	
+	text-align: center;
+}
+
+#container {
+	display: inline-block;
+	padding: 5px;
+	margin: 60px;
+	background: rgba(0,0,0,0.1);
+	position: relative;
+	
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+
+	-webkit-box-shadow: inset 0px 1px 2px 0px rgba(0,0,0,0.4), 0px 1px 1px 0px rgba(255,255,255,.1);
+	-moz-box-shadow: inset 0px 1px 2px 0px rgba(0,0,0,0.4), 0px 1px 1px 0px rgba(255,255,255,.1);
+	box-shadow: inset 0px 1px 2px 0px rgba(0,0,0,0.4), 0px 1px 1px 0px rgba(255,255,255,.1);
+
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	transition: all .2s ease;
+}
+
+#container ul {
+	padding: 0;
+	height: 40px;
+	margin: 0;
+	list-style: none;
+	overflow: hidden;
+	
+	-webkit-box-shadow: inset 0px 1px 1px 0px rgba(255,255,255,.2), 0px 1px 2px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: inset 0px 1px 1px 0px rgba(255,255,255,.2), 0px 1px 2px 0px rgba(0,0,0,0.5);
+	box-shadow: inset 0px 1px 1px 0px rgba(255,255,255,.2), 0px 1px 2px 0px rgba(0,0,0,0.5);
+	
+	background: #5c6063;
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.3)));
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.3) 100%);
+	background-image: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.3) 100%);
+	background-image: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.3) 100%);
+	background-image: linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.3) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#4d000000',GradientType=0 );
+	
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+}
+
+#container ul li {
+	background: rgba(255,255,255,0.0);
+	float: left;
+	text-align: center;
+	border-right: 1px solid #666;
+	border-left: 1px solid #444;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	transition: all .2s ease;
+}
+
+#container ul li:hover {
+	background: rgba(255,255,255,0.08);
+}
+
+#container ul li:active {
+	background: rgba(0,0,0,0.08);
+}
+
+#container ul li:first-child {
+	border-left: none;
+
+	-webkit-border-radius: 100px 0 0 100px;
+	-moz-border-radius: 100px 0 0 100px;
+	border-radius: 100px 0 0 100px;
+}
+
+#container ul li:last-child {
+	border-right: none;
+
+	-webkit-border-radius: 0 100px 100px 0;
+	-moz-border-radius: 0 100px 100px 0;
+	border-radius: 0 100px 100px 0;
+}
+
+#container ul li a{
+	text-decoration: none;
+	font: 11px/41px Arial, sans-serif;
+	color: #ddd;
+	text-transform: uppercase;
+	text-shadow: 0px 1px rgba(0,0,0,0.5);
+	padding: 35px;
+
+}
+
+body{background-color:transparent;}
+		.clear{clear:both;}
+
+        .controls{
+            width:100%;
+			max-width: 800px;
+            margin-bottom:8px;
+        }
+		.cbcontrol{
+			font-size:50px;
+			float:left;
+			color:white;
+            width:48%;
+            text-align:center;
+            background-color:silver;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+		}
+        #cbControlRight{
+            margin-right:4%;
+        }
+		.cbcontrol:hover{cursor:pointer;}
+		.stage{
+			background-color: transparent;
+			float: left;
+			height: 330px;
+			overflow: hidden;
+			width:100%;
+			max-width: 800px;
+			z-index: 10;
+			position:relative;
+			-webkit-backface-visibility:hidden;
+		}
+		section{
+			margin-top:40px;
+		}
+		.cbImage{
+			width:200px;
+			height:268px;
+			float:left;
+			margin:25px 0px 25px 0px;
+			color:white;
+			box-shadow: 0px 5px 10px 0px #D6D6D6;
+			position:absolute;
+            -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+		}
+		
+		.cbImage img{
+			width:100%;
+			height:100%;
+		}
+		
+		.inactiveLeft{
+			-webkit-transform:perspective(500px) rotateY(60deg);
+			-O-transform:perspective(500px) rotateY(60deg);
+			transform:perspective(500px) rotateY(60deg);
+			-webkit-transition:all .5s ease-out;
+			-O-transition:all .5s ease-out;
+			transition:all .5s ease-out;
+			box-shadow: 12px 0px 20px 0px #d6d6d6;
+		}
+
+		.inactiveRight{
+			-webkit-transform:perspective(500px) rotateY(-60deg);
+			-O-transform:perspective(500px) rotateY(-60deg);
+			transform:perspective(500px) rotateY(-60deg);
+			-webkit-transition:all .5s ease-out;
+			-O-transition:all .5s ease-out;
+			transition:all .5s ease-out;
+			box-shadow: -12px 0px 20px 0px #d6d6d6;
+		}
+		
+		.active{
+			z-index:100;
+			-webkit-transform:perspective(500px) rotateY(0deg);
+			-O-transform:perspective(500px) rotateY(0deg);
+			transform:perspective(500px) rotateY(0deg);
+			-webkit-transition:all .5s ease-out;
+			-O-transition:all .5s ease-out;
+			transition:all .5s ease-out;
+		}
+        
+        .intro{
+            color:#fff;
+        }
+        
+        

@@ -8,13 +8,30 @@ nav a{
 }
 
 
-body {
-   background-image: url('http://iliketowastemytime.com/sites/default/files/terence-chang-long-exposure-airport-photos10.jpg');
+body{
+   background-image: url('http://hdwallpapers.us/wp-content/uploads/walls/thumbs/The-Treetop-Temple-Protects-Kyoto-Japan-1024x640.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+
+#body1{
+   background-image: url('http://www.hdwallpaperscool.com/wp-content/uploads/2013/10/top-beach-hd-wallpaper.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#body2{
+   background-image: url('http://www.hdwallpapersinn.com/wp-content/uploads/2014/07/Manhattan-Bridge-New-York-City.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 
 h12{
     color: white;
@@ -215,4 +232,10 @@ body{background-color:transparent;}
             color:#fff;
         }
         
-        
+        #p1{
+            border-color: #2ef9f2;
+        }
+        #div3{
+                border-color: #2ef9f2;
+                color: black;
+        }

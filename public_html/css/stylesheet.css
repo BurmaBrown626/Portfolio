@@ -8,7 +8,7 @@ nav a{
 }
 
 
-body{
+#body{
    background-image: url('http://hdwallpapers.us/wp-content/uploads/walls/thumbs/The-Treetop-Temple-Protects-Kyoto-Japan-1024x640.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -238,4 +238,8 @@ body{background-color:transparent;}
         #div3{
                 border-color: #2ef9f2;
                 color: black;
+        }
+        
+        #blah{
+            background-color:black;
         }
